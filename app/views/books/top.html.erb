@@ -1,0 +1,16 @@
+<div class="row">
+	<div class='top-message col-lg-offset-3 col-lg-6'>
+		<%= notice %>
+		<h1>welcome to <span class='glyphicon glyphicon-book'></span><strong>Bookers</strong>  !!</h1>
+		<p>In  <span class='glyphicon glyphicon-book'></span><strong>Bookers</strong>, </p>
+		<p>you can share and exchange  your opinions , inpressions , and emotions</p>
+		<p> about various books!</p>
+	</div>
+</div>
+<div class="row">
+	<%= link_to "Log in", new_user_session_path, data: {"turbolinks" => false}, class: "btn btn-info col-xs-5 col-xs-offset-3 sign_in" %>
+</div>
+<div class="row">
+	<%= link_to "Sign Up", new_user_registration_path, class: "btn btn-success col-xs-5 col-xs-offset-3 sign_up" %>
+</div>
+
